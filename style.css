@@ -1,0 +1,40 @@
+html body{
+    margin: 0;
+}
+#logo{
+  width: 175px; ; 
+  height: 175px; ; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+#flex-container{
+    display: flex;
+}
+.flex-conteiner-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topvan{
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 4rem;
+}
+#search{
+width: 500px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 100px;
+  padding: 30px 40px;
+}
+.card{
+    background-color: aquamarine;
+    width: 15rem;
+    height: 15rem;
+}
+.text-center{
+    text-align: center;
+}

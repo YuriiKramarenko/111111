@@ -11,7 +11,7 @@
         <img src="img/logo1.jpg" alt="logo" id="logo">
         <form action="search.php" method="get">
             <input type="text" name="search" id="search" placeholder="wyszykaj produkt">
-            <input type="submit" valuse="szukaj">
+            <input type="submit" valuse="szukaj" id="przeslij">
         </form>
         <a href="cart.php" id="cart">koszyk</a>
     </header>

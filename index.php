@@ -19,6 +19,7 @@
         <div class="card text-center">
             <h3>nazwa oferty</h3>
             <p>cena: 10zł</p>
+            <button class="add-product-btn">Dodaj produkt</button>
             </div>
         <?php
             include "display_products.php";

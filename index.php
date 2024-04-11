@@ -13,14 +13,16 @@
             <input type="text" name="search" id="search" placeholder="wyszykaj produkt">
             <input type="submit" valuse="szukaj" id="przeslij">
         </form>
+        <div>
         <a href="cart.php" id="cart">koszyk</a>
+        <a href="login.html" id="dodaj">Dodaj produkt</a>
+        </div>
     </header>
     <main class="flex-conteiner-wrap">
         <div class="card text-center">
             <h3>nazwa oferty</h3>
             <p>cena: 10zł</p>
-            <button class="add-product-btn">Dodaj produkt</button>
-            </div>
+        </div>
         <?php
             include "display_products.php";
         ?>

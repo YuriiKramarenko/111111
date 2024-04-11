@@ -24,7 +24,7 @@
             <p>cena: 10zł</p>
         </div>
         <?php
-            include "display_products.php";
+            include "display_product.php";
         ?>
     </main>
 </body>

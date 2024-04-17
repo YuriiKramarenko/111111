@@ -2,7 +2,7 @@
 
 include "db_conection.php";
 
-$sql = "SELECT `name` , `price` FROM `product`";
+$sql = "SELECT `name` , `price` FROM `produkt`";
 $result = $conn->query($sql);
 
 while ($row = $result->fetch_assoc()){
